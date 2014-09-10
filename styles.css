@@ -1,0 +1,237 @@
+body {
+  background-color: #fff;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+}
+
+.gray {
+  color: #888;
+}
+/*Top Nav*/
+nav {
+  background-color:  rgba(255,255,255,0.95);
+  width:100%;
+  height: 60px;
+  position: fixed;
+  display: inline-block;
+}
+
+.nav-left {
+  float:left;
+}
+
+.m-logo {
+  font-weight: 800;
+  display: inline-block;
+  font-size: 2.5rem;
+  margin: 5px 15px;
+  border-right: 1px solid #000;
+  padding-right: 15px;
+}
+
+.author {
+  display: inline-block;
+  color: #888;
+}
+
+.nav-right {
+  float: right;
+}
+
+.nav-peop {
+  display: inline-block;
+  margin: 15px 165px;
+}
+
+.peop-heart {
+  background-color: green;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  font-size: .3rem;
+  color: #fff;
+  position: absolute;
+  line-height: 18px;
+  top: 34px;
+  right: 268px;
+}
+
+.h-two {
+  right: 233px;
+}
+
+.h-three {
+  right: 197px;
+}
+
+.h-four {
+  right: 160px;
+}
+
+.middle {
+  margin-left: 3.5px;
+}
+
+.circle-img {
+  border-radius: 50%;
+}
+.nav-bookmark {
+  display: inline-block;
+  border-left: 1px solid #000;
+  position: absolute;
+  padding: 0 15px;
+  color: #888;
+  top: 5px;
+  right: 22px;
+}
+
+.icon-book{
+  height: 40px;
+  width: 40px;
+  border: 1px solid #888;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.5rem;
+}
+
+
+/*Top Picture*/
+.head-picture {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index:  -100;
+  background-size: cover;
+
+}
+.art-title {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+  font-size:  50px;
+  color: #fff;
+}
+
+
+/*Article*/
+main {
+  color: rgba(0,0,0,0.8);
+  font-family: Georgia, Cambria, Times, serif;
+ font-size:  1.3rem;
+ line-height: 1.4;
+ margin: 30px 25%;
+}
+
+.divider {
+  height: 1px;
+  width: 100px;
+  background-color: rgba(0,0,0,0.4);
+  margin: 30px auto;
+}
+
+.italic  {
+  font-style: italic;
+}
+
+.recommend {
+  height: 50px;
+  width: 130px;
+  border: 1px solid green;
+  border-radius: 200px;
+  line-height: 50px;
+  font-size: 1rem;
+  text-align: center;
+  color: green;
+  transition: border .5s ease;
+  float: left;
+  margin-bottom: 40px;
+}
+
+.recommend:hover {
+  border-color: black;
+  color: black;
+}
+
+.fa-heart {
+  margin-right: 5px;
+}
+
+.social {
+  color: #888;
+  padding: 10px;
+  line-height: 70px
+}
+
+.social:hover {
+  color: #555;
+}
+
+.writer-publisher {
+  clear: both;
+}
+
+.box {
+  border-top: 1px solid #000;
+  max-width: 45%;
+}
+
+.box-title {
+  font-size: .8rem;
+}
+
+.writer {
+  float: left;
+}
+
+.publisher  {
+  float: right;
+}
+
+.writer-pic {
+margin-left:2%;
+float:left; 
+height: 70px;
+width: 70px;
+}
+
+.writer-descrip {
+  margin-left: 95px;
+  font-size: .8rem;
+}
+
+.publisher-pic {
+margin-left:2%;
+float:left; 
+height: 70px;
+width: 70px;
+}
+.follow {
+  height: 25px;
+  width: 65px;
+  font-size: .5rem;
+  line-height: 25px;
+  margin-left: 95px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
